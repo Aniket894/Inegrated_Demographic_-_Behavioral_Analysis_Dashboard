@@ -1,0 +1,64 @@
+###Integrated Demographic & Behavioral Analysis
+
+##Overview
+This project analyzes a dataset named "Integrated Demographic & Behavioral Analysis" containing information on age, gender, time spent, platform usage, interests, location, demographics, profession, income, indebtedness, homeownership status, and car ownership.
+
+##Dataset Description
+age: Age of the individual.
+gender: Gender of the individual.
+time_spent: Time spent on the platform.
+platform: Platform used.
+interests: Interests of the individual.
+location: Location of the individual.
+demographics: Demographic information.
+profession: Profession of the individual.
+income: Income level of the individual.
+indebt: Indebtedness status of the individual.
+isHomeOwner: Homeownership status of the individual.
+Owns_Car: Car ownership status of the individual.
+
+##Here are some questions you could explore in your SQL project and Power BI dashboard using the given dataset:
+
+Age Distribution: What is the distribution of ages among the dataset? Are there any age groups that stand out?
+Gender Representation: How does gender distribution look like in the dataset? Is there any significant gender imbalance?
+Time Spent Analysis: What is the average time spent on the platform? Are there any patterns based on age, gender, or location?
+Platform Preferences: Which platform is most popular among users? Is there a difference in platform preference based on demographics or interests?
+Interest Analysis: What are the most common interests among users? Are there any trends or patterns in interests based on demographics or location?
+Location Insights: How does user distribution vary across different locations? Are there any regions with a higher concentration of users?
+Profession Analysis: What are the predominant professions among users? Is there any correlation between profession and income level?
+Income Distribution: What is the distribution of income levels among users? Are there any significant differences based on demographics or location?
+Debt Status: What proportion of users are in debt? Is there any correlation between debt status and other variables like income or homeownership?
+Homeownership Analysis: What percentage of users are homeowners? Is there any correlation between homeownership and other variables like income or car ownership?
+Car Ownership: How many users own a car? Is there any correlation between car ownership and other variables like income or location?
+
+
+
+##Power BI Visualization
+The Power BI visualization provides interactive dashboards and reports based on the analyzed dataset. It offers dynamic visualizations such as charts, graphs, and tables to visually represent the findings from the SPSS analysis.
+
+##New Columns in Power BI
+
+Age Category: Created a new column categorizing age groups based on the "age" column.
+Index Column: Created a new index column for easier tracking and reference.
+
+
+##Here's an overview of the Power BI visualizations i've created:
+
+Bar Chart for User by Age Category: This bar chart visualizes the distribution of users across different age categories.
+Doughnut Chart for Gender Proportion: This doughnut chart illustrates the proportion of users by gender.
+Line and Bar Chart for Profession and Income: This combination chart displays both the average income and the count of users by profession.
+Average Time Spent by Interests: This chart shows the average time spent on the platform based on users' interests.
+Doughnut Chart of Debt Proportion: This doughnut chart represents the proportion of users who are in debt.
+
+
+##Slicers for Filtering:
+
+Countries: Allows users to filter data based on countries.
+Income Level: Enables filtering based on income levels.
+Homeownership Status: Allows filtering based on whether users own a house or not.
+Car Ownership Status: Enables filtering based on whether users own a car or not.
+Age Category: Allows filtering based on age categories.
+Gender: Enables filtering based on gender.
+
+##Contributors
+Aniket
